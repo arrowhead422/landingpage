@@ -1,4 +1,4 @@
-var myName = "xiang";
+var myName = "Kenneth is a boss";
 
 var red = [0, 100, 63];
 var orange = [40, 100, 60];
@@ -19,3 +19,11 @@ else
 }
 
 bounceBubbles();
+
+
+
+
+$('#go-to-top').click(function(){ 
+      $('html,body').animate({ scrollTop: 0 }, 400);
+      return false; 
+});
