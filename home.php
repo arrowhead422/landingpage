@@ -10,11 +10,13 @@
   
 </head>
 <body>
+<div id="headbox">
 <p id="title">landingpage</p>
 <a href="http://www.google.com"><p class="guide">home &nbsp</p></a>
 <a href="http://www.google.com"><p class="guide">contack &nbsp</p></a>
 <a href="http://www.google.com"><p class="guide">About &nbsp</p></a>
 <a href="http://codepen.io/zenturtle/full/aAcwH"><p class="guide">Home &nbsp</p></a>
+</div>
 </br></br>
 <hr>
 </br></br></br>
