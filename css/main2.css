@@ -29,6 +29,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -202,16 +203,7 @@ xcody-info
 Main components 
 
 -------------------------------- */
- header {
-    height: 300px;
-    height: 300px;
-  background-image: url(http://4.bp.blogspot.com/-asrOtfIYPiY/T9nNxbye68I/AAAAAAAAAdE/c9_Tyb0ODuQ/s1600/hd%2Bpretty%2Bbackgrounds.jpg);
-   background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center top;
-    background-attachment: fixed; 
-  text-align: center;
-  }
+
 
 header h1 {
   font-size: 20px;
@@ -227,13 +219,14 @@ header h1 {
 
   header {
     height: 300px;
-    height: 300px;
   background-image: url(http://4.bp.blogspot.com/-asrOtfIYPiY/T9nNxbye68I/AAAAAAAAAdE/c9_Tyb0ODuQ/s1600/hd%2Bpretty%2Bbackgrounds.jpg);
    background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
     background-attachment: fixed; 
   text-align: center;
+  border-style: solid;
+    border-color: white;
   }
   header h1 {
     font-size: 30px;
@@ -346,13 +339,7 @@ hr {
 
 }
 
-.guide {
-display:inline;
-float:right;
-margin-top:70px;
-font-family:helvetica;
-color:black;
-}
+
 
 .guide:hover{
   opacity:0.4;
@@ -371,7 +358,13 @@ a {
   top:100px;
   font-family:helvetica;
 }
-
+.guide {
+display:inline;
+float:right;
+margin-top:70px;
+font-family:helvetica;
+color:black;
+}
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
 
 
@@ -380,13 +373,11 @@ a {
   font-size: 50px;
   text-decoration: none;
   color: #fff;
-  margin: auto;
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+  display:inline;
+float:right;
+margin-top:70px;
+font-family:helvetica;
+color:black;
   width: 400px;
   height: 80px;
   line-height: 80px;

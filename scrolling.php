@@ -8,7 +8,7 @@
 	 <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
 </head>
-<a href="http://www.google.com"><p class="guide">home &nbsp</p></a>
+<a href="http://www.google.com"><p class="anim">home &nbsp</p></a>
 <a href="http://www.google.com"><p class="guide">contack &nbsp</p></a>
 <a href="http://www.google.com"><p class="guide">About &nbsp</p></a>
 <a href="http://codepen.io/zenturtle/full/aAcwH"><p class="guide">Home &nbsp</p></a>
