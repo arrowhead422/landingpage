@@ -8,13 +8,24 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<link rel="stylesheet"  href="css/landing.css">
+
 	<title></title>
-	<link rel="stylesheet"  href="css/landing.css">
+<div id="page-content">
+  
+    <section class="intro">
+   
+      
+    <div class="button-area">
+      <a class="button scroll-down">Scroll me down</a>
+    </div>
+    </section>	
 </head>
 
 <body>
-<main class="cd-container">
 
+   
+</div>
     <nav id="navigation">
       <div class="container">
         <ul class="navlinks">
@@ -25,13 +36,13 @@
         </ul>
       </div>
     </nav>
-</main>    
+   
     <header id="heading">
       <div class="container text-center">
-        <h1>Super Nintendo Rocks</h1>
-        <h4>But this is just a sample demo layout, don't get too excited!</h4>
+        <h1>App Academy Rocks</h1>
+        <h4>welcome to my landing page, this is just a sample website, don't get too excited!</h4>
         
-        <p><a href="index.html" class="btn btn-large btn-inverse">Check out our features</a></p>
+        <p><a href="index.html" class="btn btn-large btn-inverse"></a></p>
       </div>
     </header>
     
@@ -59,26 +70,26 @@
         
         <hr>
         
-        <h2>SNES in Dribbble Shots</h2>
+        <h2>All Year Project <3</h2>
         <div class="alert alert-info">
-          <strong>Note:</strong> Each shot is linked to the original source.
+          <strong>Note:</strong> Each shot is linked 
         </div>
         
         <div class="row-fluid">
           <ul class="thumbnails">
             <li class="span4">
-              <a href="http://dribbble.com/shots/39065-snes-controller" class="thumbnail" target="_blank">
-              <img src="http://i.imgur.com/Q4bxBmd.png" alt="snes controller dribbble shot">
+              <a href="http://localhost/awesomenauts/index.php" class="thumbnail" target="_blank">
+              <img src="pic/awesome.PNG" alt="snes controller dribbble shot">
               </a>
             </li>
             <li class="span4">
-              <a href="http://dribbble.com/shots/525128-Micons-Series-2-SNES" class="thumbnail" target="_blank">
-              <img src="http://i.imgur.com/uQLkghZ.png" alt="minicon series2 snes console">
+              <a href="http://localhost/appacademyapi/index.php" class="thumbnail" target="_blank">
+              <img src="pic/instagram.PNG" alt="minicon series2 snes console">
               </a>
             </li>
             <li class="span4">
-              <a href="http://dribbble.com/shots/633186-The-Game" class="thumbnail" target="_blank">
-              <img src="http://i.imgur.com/vLg6MDV.png" alt="snes video game cartridge shot">
+              <a href="http://localhost/todo1/login.php" class="thumbnail" target="_blank">
+              <img src="pic/todo.jpeg" alt="snes video game cartridge shot">
               </a>
             </li>
           </ul>
@@ -102,6 +113,8 @@
         <hr>
       </div><!-- @end .container -->
     </div><!-- @end #main-content -->
+    <section class="tutorial">
+    </section>
     
 
     
@@ -112,7 +125,16 @@
         <p><small>Website code structured with <a href="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a>. Background image credits to <a href="http://www.flickr.com/photos/fjolnir/2342246699/">Fjölnir Ásgeirsson</a>. Sample content via <a href="http://bluthipsum.com/">Bluth Ipsum</a>.</small></p>
       </div>
     </div>
-     <script type="text/javascript" src="js/landing.js"></script>
+    
+     </div>
+      <section class="tutorial">
+      
+      <div class="button-area">
+      <a class="button scroll-up">Scroll me up</a>
+    </div>
+  </section>
+      
 </body>
-<a href="#0" class="cd-top">Top</a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+ <script type="text/javascript" src="js/landing.js"></script>
 </html>

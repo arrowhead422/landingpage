@@ -1,36 +1,40 @@
-jQuery(document).ready(function($){
-	// browser window scroll (in pixels) after which the "back to top" link is shown
-	var offset = 50,
-		//browser window scroll (in pixels) after which the "back to top" link opacity is reduced
-		offset_opacity = 1000,
-		//duration of the top scrolling animation (in ms)
-		scroll_top_duration = 700,
-		//grab the "back to top" link
-		$back_to_top = $('.cd-top');
+/*-----This is our scroll function-----
+elementSelector: indicates the element to scroll to (use .class or #id)
+offset: simply an offset in px to scroll to in relation to the element
+time:  how long the scroll should take
+*/
+function scrollWin(elementSelector, offset, time){
+	if(typeof(offset)=="undefined")
+		offset = 0;
+	if(typeof(time)=="undefined")
+		time = 1000;
+	$('body,html').stop().animate({scrollTop: $(elementSelector).offset().top+offset}, time);
+}//end of scrollWin() function
 
-	//hide or show the "back to top" link
-	$(window).scroll(function(){
-		( $(this).scrollTop() > offset ) ? $back_to_top.addClass('cd-is-visible') : $back_to_top.removeClass('cd-is-visible cd-fade-out');
-		if( $(this).scrollTop() > offset_opacity ) { 
-			$back_to_top.addClass('cd-fade-out');
-		}
-	});
 
-	//smooth scroll to top
-	$back_to_top.on('click', function(event){
-		event.preventDefault();
-		$('body,html').animate({
-			scrollTop: 0 ,
-		 	}, scroll_top_duration
-		);
-	});
-
+/*-----This is where the magic happens-----
+We detect the user's attempt to scroll or interact with the page and then cancel any scroll animation that might be going on
+*/
+$viewport = $('body,html');	//use both body and html as firefox places overflow at the html level, and hence scrolls here
+$viewport.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
+	if ( e.which > 0 || e.type === "mousedown" || e.type === "mousewheel"){
+		 $viewport.stop();
+	}
 });
 
-$back_to_top.on('click', function(event){
-	
+
+
+/*Some stuff for the demo*/
+//bind the scroll to some buttons
+$(document).on("click", ".scroll-down", function(e){
+  scrollWin(".tutorial", 0, 5000);
 });
 
-jQuery('#cody-info ul li').eq(1).on('click', function(){
-$('#cody-info').hide();
+$(document).on("click", ".scroll-up", function(e){
+  scrollWin("#page-content", 0, 2000);
 });
+
+$(document).on("click", ".row-fluid2", function(e){
+  scrollWin("row-fluid", 0, 2000);
+});
+
