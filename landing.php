@@ -30,7 +30,7 @@
       <div class="container">
         <ul class="navlinks">
           <li><a href="index.html">About Me</a></li>
-          <li><a href="index.html">Projects</a></li>
+          <li><a href="project.php">Projects</a></li>
           <li><a href="index.html">App Academy</a></li>
           <li><a href="index.html">Contacts</a></li>
         </ul>
@@ -50,14 +50,14 @@
       <div class="container">
          <div class="row">
            <div class="span4">
-             <h2>Our Products</h2>
-             <p>Oh…yeah…the guy in the…the $4,000 suit is holding the elevator for a guy who doesn't make that in three months. Come on! Speaking of settling, how's Ann? He's a regular Freddie Wilson, that one.</p>
+             <h2>My school year</h2>
+             <p>this school year is same as my last year.-_-. Come on! Speaking of settling, how's Ann? He's a regular Freddie Wilson, that one.</p>
              <p class="text-center"><a class="btn" href="index.html">Read more</a></p>
            </div>
    
            <div class="span4">
-             <h2>We Love You! <small>so much</small></h2>
-             <p>I mean, it's one banana, Michael. What could it cost, ten dollars? It's sort of like going from prime rib to… I don't know… weird brother of prime rib. I hear the jury's still out on science. <strong>Check out banner, Michael!</strong></p>
+             <h2>text text! <small>so much</small></h2>
+             <p>I mean, it's one banana, dan. What could it cost, ten dollars? It's sort of like going from prime rib to… I don't know… weird brother of prime rib. I hear the jury's still out on science. <strong>Check out banner, Michael!</strong></p>
              <p class="text-center"><a class="btn btn-primary" href="index.html">Primary button</a></p>
            </div>
    
@@ -98,13 +98,13 @@
         <div class="row-fluid">
           <ul class="thumbnails">
             <li class="span6">
-              <a href="http://dribbble.com/shots/758735-Oh-Oh-Please-Amaze-Me-Detail-IV" class="thumbnail" target="_blank">
-              <img src="http://i.imgur.com/SS8Kiln.png" alt="dribbble shots super nintendo">
+              <a href="http://localhost/landingpage/home.php" class="thumbnail" target="_blank">
+              <img src="http://www.attiva-apps.com/wp-content/uploads/2014/04/landing-page.jpg" alt="dribbble shots super nintendo">
               </a>
             </li>
             <li class="span6">
-              <a href="http://dribbble.com/shots/436565-Jaku-Console-Wars" class="thumbnail" target="_blank">
-              <img src="http://i.imgur.com/y3M2d7p.png" align="dribbble console wars super nintendo design">
+              <a href="http://www.coolmath-games.com/" class="thumbnail" target="_blank">
+              <img src="http://www.gotmesh.org/wp-content/uploads/2013/06/video-game-controller.jpg" align="dribbble console wars super nintendo design">
               </a>
             </li>
           </ul>
@@ -117,16 +117,22 @@
     </section>
     
 
+      
+
     
     <div id="footer">
       <div class="container">
-        <p>Simple layout design for <a href="http://blog.teamtreehouse.com/">Treehouse Blog</a>.</p>
-        <p>Feel free to download and use these codes for any basic template layout.</p>
-        <p><small>Website code structured with <a href="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a>. Background image credits to <a href="http://www.flickr.com/photos/fjolnir/2342246699/">Fjölnir Ásgeirsson</a>. Sample content via <a href="http://bluthipsum.com/">Bluth Ipsum</a>.</small></p>
+        <a href="https://instagram.com/">
+              <img id="img" src="http://marinad.com.ar/wp-content/uploads/2013/11/logo-instagram.jpg">
+              </a>
       </div>
+
     </div>
-    
-     </div>
+    <div class="container">
+   <a href="https://plus.google.com/u/0/">
+   <img id="img" src="https://cdn1.iconfinder.com/data/icons/metro-ui-dock/512/Google.png"></a>
+ </div>
+
       <section class="tutorial">
       
       <div class="button-area">
