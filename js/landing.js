@@ -27,7 +27,7 @@ $viewport.bind("scroll mousedown DOMMouseScroll mousewheel keyup", function(e){
 /*Some stuff for the demo*/
 //bind the scroll to some buttons
 $(document).on("click", ".scroll-down", function(e){
-  scrollWin(".tutorial", 0, 5000);
+  scrollWin(".tutorial", 0, 4000);
 });
 
 $(document).on("click", ".scroll-up", function(e){
